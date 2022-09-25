@@ -1,0 +1,30 @@
+.tablenumbering {
+  list-style: none;
+  display: flex;
+}
+
+.tablenumbering li {
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.tablenumbering li.active {
+  background-color: white;
+  color: black;
+}
+
+.tablenumbering li button {
+  background-color: transparent;
+  border: none;
+  color: blueviolet;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.tablenumbering li button:hover {
+  background-color: rgb(28, 11, 106);
+  color: rgb(180, 179, 189);
+}
+.tablenumbering li button:focus {
+  outline: none;
+}
